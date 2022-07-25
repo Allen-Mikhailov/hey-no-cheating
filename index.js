@@ -6,9 +6,9 @@ function Update()
     const dif = time-lastTime
     lastTime = time
 
-    if (dif > 3000)
+    if (dif > 1000)
     {
-        console.log("Cheated")
+        document.getElementById("title").innerHTML = "HEY YOU CHEATEDDDDDDDDDDDDDDDDDDDDDD!"
     }
 
     requestAnimationFrame(Update)
