@@ -7,6 +7,10 @@ body {
     background: #24d35f;
 }
 
+.bodyCheated {
+    background: #f7481c;
+}
+
 .background {
     position: absolute;
     top: 0px;

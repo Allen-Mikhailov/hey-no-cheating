@@ -8,7 +8,9 @@ function Update()
 
     if (dif > 1000)
     {
-        document.getElementById("title").innerHTML = "HEY YOU CHEATEDDDDDDDDDDDDDDDDDDDDDD!"
+        document.body.classList.add("bodyCheated")
+        document.getElementById("title").innerHTML = "HEY YOU CHEATED!"
+        document.getElementById("subtext").innerHTML = "How could you!"
     }
 
     requestAnimationFrame(Update)
